@@ -1,16 +1,13 @@
 import React, { useState } from 'react';
-import DadosPessoaisForm from './Componensts/DadosPessoais';
-import Endereco from './Componensts/DadosEndereco';
-import Agradecimento from './Componensts/agradecimento';
+
+import MudarPassos from './Componensts/Passos';
 
 function App() {
 
   return (
-    <div className="app">
+    <div className="container">
       <div>
-        <DadosPessoaisForm /> 
-        <Endereco/> 
-        <Agradecimento/>
+      <MudarPassos/>
       </div>
     </div>
   );
