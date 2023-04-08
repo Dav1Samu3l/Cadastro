@@ -10,9 +10,9 @@ function App() {
     <div className="app">
       <div>
         <form>
-          {passoAtual === 0 && <DadosPessoais />}
+          {/* {passoAtual === 0 && <DadosPessoais />}
           {passoAtual === 1 && <Endereco />}
-          {passoAtual === 2 && <Agradecimento />}
+          {passoAtual === 2 && <Agradecimento />} */}
         </form>
       </div>
     </div>
