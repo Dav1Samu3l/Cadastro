@@ -1,7 +1,6 @@
 import React from 'react';
 import { Form, FormGroup, FormLabel, FormControl } from 'react-bootstrap';
 import { MdEmail } from 'react-icons/md';
-import  './DadosPessoais.css';
 
 function DadosPessoaisForm() {
   return (
