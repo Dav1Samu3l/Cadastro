@@ -1,0 +1,15 @@
+.botao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .botao-container > div,
+  .botao-container > button {
+    margin: 10px 0;
+  }
+  
+  .botao-enviar {
+    display: block;
+  }
+  
