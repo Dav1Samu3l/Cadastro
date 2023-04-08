@@ -23,8 +23,16 @@ function MudarPassos() {
   return (
     <div>
       {componentesDeFormulario[passoAtual]}
-      <button  disabled={passoAtual === 0} onClick={retrocederPasso}>Voltar</button>
-      <button disabled={passoAtual === componentesDeFormulario.length - 1} onClick={avancarPasso}>Avançar</button>
+      {passoAtual === 0 ? (
+        <button onClick={avancarPasso}>Avançar</button>
+      ) : passoAtual === componentesDeFormulario.length - 1 ? (
+        <button>Enviar</button>
+      ) : (
+        <div>
+          <button disabled={passoAtual === 0} onClick={retrocederPasso}>Voltar</button>
+          <button disabled={passoAtual === componentesDeFormulario.length - 1} onClick={avancarPasso}>Avançar</button>
+        </div>
+      )}
     </div>
   );
 }
