@@ -8,14 +8,14 @@ function DadosPessoaisForm() {
       <Form>
         <FormGroup controlId="nome">
           <FormLabel>Nome</FormLabel>
-          <FormControl type="text" placeholder="Digite seu nome" />
+          <FormControl type="text" placeholder="Digite seu nome" required  />
         </FormGroup>
         <FormGroup controlId="email">
-          <FormLabel>Email</FormLabel>
+          <FormLabel required >Email</FormLabel>
           <div>
             <MdEmail />
           </div>
-          <FormControl type="email" placeholder="Digite seu email" />
+          <FormControl type="email" placeholder="Digite seu email" required />
         </FormGroup>
       </Form>
     </div>
