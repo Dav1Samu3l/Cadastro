@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Marcador from "./style.marcador";
 
 function Header(props) {
   const [agradecimento, setAgradecimento] = useState(false);
@@ -11,6 +12,8 @@ function Header(props) {
   }, []);
 
   return (
+    <div>
+    
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
       {(!agradecimento) && (
         <>
@@ -23,6 +26,11 @@ function Header(props) {
           <p>Obrigado por se cadastrar!</p>
         </>
       )}
+    </div>
+    <>
+    <Marcador/>
+    </>
+
     </div>
   );
 }

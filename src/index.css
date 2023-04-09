@@ -6,11 +6,11 @@
 }
 
 .container, .container-md, .container-sm {
-  max-width: 607px;
+  max-width: 100%;
   padding:  91px 10px 10px 10px;
 }
 .container {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
