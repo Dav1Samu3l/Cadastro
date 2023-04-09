@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './Header';
 import Endereco from './DadosEndereco';
 import DadosPessoaisForm from './DadosPessoais';
-import Agradecimento from './agradecimento';
+import Agradecimento from './agradecimento.jsx';
 import './Passos.css';
 
 function MudarPassos() {
