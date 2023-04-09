@@ -9,3 +9,44 @@
   max-width: 607px;
   padding:  91px 10px 10px 10px;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.passo-container {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.botao-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botao-container button {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #0077ff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.botao-container button:hover {
+  background-color: #0055cc;
+}
+
+.botao-container .botao-enviar {
+  background-color: #00cc44;
+  margin-left: auto;
+}
+
+.botao-container .botao-enviar:hover {
+  background-color: #009933;
+}
