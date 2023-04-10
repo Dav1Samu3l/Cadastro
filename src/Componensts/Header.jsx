@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Marcador from "./style.marcador";
 
-function Header(props) {
+function Header() {
   const [agradecimento, setAgradecimento] = useState(false);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function Header(props) {
       )}
     </div>
     <>
-    <Marcador/>
+  
     </>
 
     </div>
