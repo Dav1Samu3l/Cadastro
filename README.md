@@ -18,7 +18,7 @@
     <li>Clone o repositório para a sua máquina.</li>
     <li>Abra o terminal e navegue até o diretório raiz do projeto.</li>
     <li>Execute o comando <code>npm install</code> para instalar todas as dependências.</li>
-    <li>Execute o comando <code>npm start</code> para iniciar o servidor local.</li>
+    <li>Execute o comando <code>npm run dev</code> para iniciar o servidor local.</li>
     <li>Acesse o projeto no seu navegador em <a href="http://localhost:3000">http://localhost:3000</a>.</li>
   </ol>
   <h2>Funcionamento</h2>
