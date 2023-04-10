@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Endereco from './DadosEndereco';
 import DadosPessoaisForm from './DadosPessoais';
-import Agradecimento from './agradecimento.jsx';
+import Agradecimento from './Agradecimento.jsx';
 import Marcador from './style.marcador';
 import './Passos.css';
 
