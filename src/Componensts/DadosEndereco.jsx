@@ -9,33 +9,33 @@ function Endereco() {
         <div className="col-md-6">
           <FormGroup controlId="logradouro">
             <FormLabel>Logradouro</FormLabel>
-            <FormControl type="text" placeholder="Digite o logradouro" />
+            <FormControl type="text" placeholder="Digite o logradouro" required />
           </FormGroup>
           <FormGroup controlId="numero">
             <FormLabel>Número</FormLabel>
-            <FormControl type="text" placeholder="Digite o número" />
+            <FormControl type="text" placeholder="Digite o número" required />
           </FormGroup>
           <FormGroup controlId="bairro">
             <FormLabel>Bairro</FormLabel>
-            <FormControl type="text" placeholder="Digite o bairro" />
+            <FormControl type="text" placeholder="Digite o bairro" required/>
           </FormGroup>
         </div>
         <div className="col-md-6">
           <FormGroup controlId="complemento">
             <FormLabel>Complemento</FormLabel>
-            <FormControl type="text" placeholder="Digite o complemento" />
+            <FormControl type="text" placeholder="Digite o complemento" required/>
           </FormGroup>
           <FormGroup controlId="cidade">
             <FormLabel>Cidade</FormLabel>
-            <FormControl type="text" placeholder="Digite a cidade" />
+            <FormControl type="text" placeholder="Digite a cidade"required />
           </FormGroup>
           <FormGroup controlId="cep">
             <FormLabel>CEP</FormLabel>
-            <FormControl type="text" placeholder="Digite o CEP" />
+            <FormControl type="text" placeholder="Digite o CEP" required/>
           </FormGroup>
           <FormGroup controlId="estado">
             <FormLabel>Estado</FormLabel>
-            <FormControl type="text" placeholder="Digite o estado" />
+            <FormControl type="text" placeholder="Digite o estado" required />
           </FormGroup>
         </div>
       </div>
