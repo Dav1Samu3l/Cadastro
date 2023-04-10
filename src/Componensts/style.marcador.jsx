@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { BsFillHouseFill, BsFillPersonFill } from 'react-icons/bs';
+import {BiHappyHeartEyes} from 'react-icons/bi';
+
 
     const PassosContainer = styled.div`
     display: flex;
@@ -27,13 +30,13 @@ import styled from 'styled-components';
     return (
         <PassosContainer>
         <Passo ativo={passoAtual === 0}>
-            <TextoPasso ativo={passoAtual === 0}>Dados pessoais</TextoPasso>
+            <TextoPasso ativo={passoAtual === 0}>  <BsFillPersonFill/>Dados pessoais</TextoPasso>
         </Passo>
         <Passo ativo={passoAtual === 1}>
-            <TextoPasso ativo={passoAtual === 1}>Endereço</TextoPasso>
+            <TextoPasso ativo={passoAtual === 1}><BsFillHouseFill />Endereço</TextoPasso>
         </Passo>
         <Passo ativo={passoAtual === 2}>
-            <TextoPasso ativo={passoAtual === 2}>Agradecimento</TextoPasso>
+            <TextoPasso ativo={passoAtual === 2}> <BiHappyHeartEyes/>Agradecimento</TextoPasso>
         </Passo>
         </PassosContainer>
     );
