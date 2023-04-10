@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { BsFillHouseFill, BsFillPersonFill } from 'react-icons/bs';
 import {BiHappyHeartEyes} from 'react-icons/bi';
+import MudarPassos from "./Passos"
 
 
     const PassosContainer = styled.div`

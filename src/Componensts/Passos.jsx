@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import Endereco from './DadosEndereco';
 import DadosPessoaisForm from './DadosPessoais';
-import Agradecimento from './Agradecimento.jsx';
+import Agradecimento from './agradecimento.jsx';
+import Marcador from './style.marcador';
 import './Passos.css';
 
-function MudarPassos() {
-  const [passoAtual, setPassoAtual] = useState(0);
-
+function MudarPassos({ passoAtual, setPassoAtual }) {
   function retrocederPasso() {
     setPassoAtual(passoAtual - 1);
   }
@@ -25,6 +24,7 @@ function MudarPassos() {
   return (
     <div className="container">
       <Header />
+      <Marcador passoAtual={passoAtual} setPassoAtual={setPassoAtual} />
       <div className="passo-container">
         {componentesDeFormulario[passoAtual]}
       </div>
@@ -56,4 +56,4 @@ function MudarPassos() {
   );
 }
 
-export default MudarPassos;
+export default MudarPassos; 
